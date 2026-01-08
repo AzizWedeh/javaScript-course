@@ -26,6 +26,6 @@ if(x<0){
 }
     }
 btn2.onclick=function(){
-    age.value="0"
-    result.textContent="0"
+    age.value=""
+    result.textContent=""
 }  

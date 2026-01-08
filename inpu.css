@@ -1,6 +1,4 @@
-/* ...existing code... */
 
-/* Counter app styles */
 :root{
   --bg-1: #f8fafc;
   --card: #ffffff;
@@ -24,8 +22,6 @@ html,body{
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
-
-/* Center page */
 .page{
   min-height:100vh;
   display:flex;
@@ -34,7 +30,7 @@ html,body{
   padding:2rem;
 }
 
-/* Card */
+
 .app {
   width:100%;
   max-width:420px;
@@ -45,7 +41,6 @@ html,body{
   text-align:center;
 }
 
-/* Header */
 .app h1{
   margin:0 0 .5rem 0;
   font-size:1.125rem;
@@ -58,7 +53,7 @@ html,body{
   font-size:.95rem;
 }
 
-/* Display */
+
 .display {
   margin: .5rem 0 1.25rem;
   padding: .6rem 1rem;
