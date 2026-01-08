@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inpu.css">
+
+</head>
+<body>
+    <div class="page">
+      <main class="app">
+        <h1>Age Counter</h1>
+        <p class="lead">Type your age and press <strong>OK</strong></p>
+
+        <label class="small">Enter your age</label>
+        <div class="input-row">
+          <input type="text" id="age" class="number-input" aria-label="age input">
+        </div>
+
+        <div class="controls">
+          <button id="btn1" class="btn btn-primary">OK</button>
+          <button id="btn-reset" class="btn btn-ghost">Reset</button>
+        </div>
+
+        <div id="result" class="small" aria-live="polite"></div>
+
+        <div id="message" aria-hidden="true"></div>
+      </main>
+    </div>
+
+    <script src="inpu.js"></script>
+
+</body>
+</html>
